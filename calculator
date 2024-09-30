@@ -1,0 +1,15 @@
+#include,stdio.h>
+#include<conio.h>
+int main(){
+int a,b,add,sub,multi,divide;
+printf("ewnter the value of a & b");
+scanf("%d%d",&a,&b);
+add=a+b;
+printf("result of add is %d\n",add);
+sub=a-b;
+printf("result of sub is %d\n",sub);
+multi=a*b;
+printf("result of multi is %d\n", multi);
+divide=a/b;
+printf("result of divide is %d\n", divide);
+}
